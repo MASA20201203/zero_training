@@ -9,9 +9,9 @@ require("@rails/activestorage").start()
 require("channels")
 
 require("bootstrap");
+require("@fortawesome/fontawesome-free");
 
-console.log("foobar!foobar!foobar!") //TODO webpack-dev-server 確認 （後で削除）
-import '@fortawesome/fontawesome-free/js/all'
+console.log("foobar!foobar!foobar!"); //TODO webpack-dev-server 確認 （後で削除）
 
 // Uncomment to copy all static images under ../images to the output folder and reference
 // them with the image_pack_tag helper in views (e.g <%= image_pack_tag 'rails.png' %>)
