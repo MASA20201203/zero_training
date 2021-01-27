@@ -9,7 +9,6 @@ require("@rails/activestorage").start()
 require("channels")
 
 require("bootstrap");
-require("@fortawesome/fontawesome-free");
 
 console.log("foobar!foobar!foobar!") //TODO webpack-dev-server 確認 （後で削除）
 import '@fortawesome/fontawesome-free/js/all'
