@@ -15,7 +15,9 @@
         = link_to "Home", root_path, id: "logo"
         %nav
           %ul.nav.navbar-nav.navbar-right
-            %li= link_to "Home", '#'
+            %li= link_to "コース一覧", courses_path
+            %li= link_to "ログイン", login_path
+            %li= link_to "新規登録", signup_path
             %li= link_to "Help", help_path
             %li= link_to "Log in", '#'
     .container
