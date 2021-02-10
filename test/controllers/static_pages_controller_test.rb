@@ -8,7 +8,7 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'should get help' do
-    get static_pages_help_url
+    get help_path
     assert_response :success
     assert_select 'title', 'Help | 0円筋トレ'
   end
