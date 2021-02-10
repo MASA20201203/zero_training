@@ -18,4 +18,22 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select 'title', 'About | 0円筋トレ'
   end
+
+  test 'should get courses' do
+    get courses_path
+    assert_response :success
+    assert_select 'title', 'コース一覧 | 0円筋トレ'
+  end
+
+  test 'should get login' do
+    get login_path
+    assert_response :success
+    assert_select 'title', 'ログイン | 0円筋トレ'
+  end
+
+  test 'should get signup' do
+    get signup_path
+    assert_response :success
+    assert_select 'title', '新規登録 | 0円筋トレ'
+  end
 end
