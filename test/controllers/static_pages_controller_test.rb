@@ -30,4 +30,10 @@ class StaticPagesControllerTest < ActionDispatch::IntegrationTest
     assert_response :success
     assert_select 'title', '胸トレ | 0円筋トレ'
   end
+
+  test 'should get show' do
+    get show_path
+    assert_response :success
+    assert_select 'title', 'マイページ | 0円筋トレ'
+  end
 end

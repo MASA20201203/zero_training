@@ -8,4 +8,6 @@ class StaticPagesController < ApplicationController
   def signup; end
 
   def chest_course; end
+
+  def show; end
 end
