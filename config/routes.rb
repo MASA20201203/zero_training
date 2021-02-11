@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   get '/login', to: 'static_pages#login'
   get '/signup', to: 'static_pages#signup'
   get '/chest_course', to: 'static_pages#chest_course'
+  get '/show', to: 'static_pages#show'
 end
