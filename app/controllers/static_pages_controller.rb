@@ -6,4 +6,6 @@ class StaticPagesController < ApplicationController
   def login; end
 
   def signup; end
+
+  def chest_course; end
 end

@@ -1,7 +1,7 @@
 - provide(:title, "コース一覧")
 .jumbotron
   .container
-    %h1.display-5
+    %h1
       コース一覧
     %p
       自宅でできる筋トレ方法を学び、健康に生きましょう！
@@ -9,7 +9,7 @@
   .row
     .col-md-4.bg-light.p-2.m-2
       %h2
-        胸
+        %a.text-dark{:href => chest_course_path}胸
       %a{:href => "#"}レベル1：立位腕立て<br>
       %a{:href => "#"}レベル2：腕立て伏せ<br>
       %a{:href => "#"}レベル3：片手腕立て伏せ<br>
