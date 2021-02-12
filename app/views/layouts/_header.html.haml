@@ -6,7 +6,7 @@
         - if user_signed_in?
           %ul.nav.navbar-right
             %li.mr-3= link_to "コース一覧", courses_path
-            %li.mr-3= link_to current_username, show_path
+            %li.mr-3= link_to current_user.username, show_path
             %li.mr-3= link_to 'プロフィール変更', edit_user_registration_path
             %li.mr-3= link_to 'ログアウト', destroy_user_session_path, method: :delete
         - else
