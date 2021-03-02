@@ -26,6 +26,7 @@ gem 'haml-rails', '~> 2.0', '>= 2.0.1'
 gem 'devise', '~> 4.7', '>= 4.7.3'
 gem 'omniauth', '~> 1.9', '>= 1.9.1'
 gem 'omniauth-twitter', '~> 1.4'
+gem 'rubocop', '~> 1.11', require: false
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
